@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+
+        android:id="@+id/ivPartido"
+        android:src="@drawable/barce"
+        android:scaleType="centerCrop"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        app:circularflow_radiusInDP="50dp"
+        tools:background="@color/azulfuerte"
+        app:layout_constraintCircleRadius="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvPartido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Partido"
+        app:layout_constraintEnd_toEndOf="@+id/ivPartido"
+        app:layout_constraintStart_toStartOf="@+id/ivPartido"
+        app:layout_constraintTop_toBottomOf="@+id/ivPartido" />
+
+    <TextView
+        android:id="@+id/tvHoraPartido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Hora partido"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/tvPartido"
+        app:layout_constraintStart_toStartOf="@+id/tvPartido"
+        app:layout_constraintTop_toBottomOf="@+id/tvPartido" />
+
+    <TextView
+        android:id="@+id/tvDireccionEvento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        tools:text="Direccion del evento"
+        app:layout_constraintEnd_toEndOf="@+id/tvHoraPartido"
+        app:layout_constraintStart_toStartOf="@+id/tvHoraPartido"
+        app:layout_constraintTop_toBottomOf="@+id/tvHoraPartido" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

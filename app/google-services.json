@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "904598228016",
+    "project_id": "fanfiesta-2023",
+    "storage_bucket": "fanfiesta-2023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904598228016:android:feae65715f87af7a4071f5",
+        "android_client_info": {
+          "package_name": "me.hectorlavoignet.proyectorubenborrador"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDugNHXsmekfZjkG5EKNt67SFG9X8rQmUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
